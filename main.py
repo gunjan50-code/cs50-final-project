@@ -12,7 +12,7 @@ st.title("Privy – Privacy Checker")
 st.write("Upload a PDF/DOCX file or paste text to detect personal information.")
 
 # --- Load Model with Spinner ---
-with st.spinner("Initializing AI model... please wait"):
+with st.spinner("Initializing model... please wait"):
     from detector import detect_sensitive_info
     time.sleep(1.5)  # optional delay for smoother UI feedback
 st.success("Model loaded")
@@ -41,7 +41,7 @@ if (input_choice == "Upload File" and text.strip()) or (input_choice == "Paste T
     st.text_area("Text Preview", text[:3000], height=200)
 
     # Detect sensitive information with spinner
-    with st.spinner("Scanning text for sensitive information... 🔍"):
+    with st.spinner("Scanning text for sensitive information... "):
         sensitive = detect_sensitive_info(text)
 
     st.subheader("Detected Information")
@@ -89,3 +89,4 @@ if (input_choice == "Upload File" and text.strip()) or (input_choice == "Paste T
     ax.tick_params(axis='both', labelsize=4)
     plt.tight_layout(pad=0.1)
     st.pyplot(fig, clear_figure=True)
+
