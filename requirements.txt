@@ -5,3 +5,6 @@ pdfplumber
 python-docx
 fpdf
 matplotlib
+spacy
+reportlab
+
