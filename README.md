@@ -52,15 +52,16 @@ The final results are displayed in a neat Streamlit interface, including graphs 
 | **AI/Text Detection**   | transformers, torch     |
 | **Helper Functions**    | fitz (PyMuPDF)          |
 
+🗂️ Project Structure
 📁 cs50-final-project
 │
-├── main.py                 # Streamlit main file
-├── detector.py             # Contains sensitive info detection logic
-├── file_handler.py         # Handles text extraction from PDFs/DOCX
-├── pdf_generator.py        # Creates redacted PDF output
-├── requirements.txt        # Libraries required for deployment
-├── README.md               # Project documentation (this file)
-└── 📁 assets              # Folder for project screenshots
+├── main.py # Streamlit main file
+├── detector.py # Contains sensitive info detection logic
+├── file_handler.py # Handles text extraction from PDFs/DOCX
+├── pdf_generator.py # Creates redacted PDF output
+├── requirements.txt # Libraries required for deployment
+├── README.md # Project documentation (this file)
+└── 📁 assets # Folder for project screenshots
 
 📸 Images
 ### 📸 Screenshots  
