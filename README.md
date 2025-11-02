@@ -1,4 +1,4 @@
-Privy – Privacy Checker
+## Privy – Privacy Checker
 
 A Streamlit-based app that detects and hides personal information (like emails, phone numbers, and names) from PDF, DOCX, or pasted text files.
 🔗 Live App: [Click here to try Privy](https://cs50-final-project-oqkjakmnxjja.streamlit.app/)
